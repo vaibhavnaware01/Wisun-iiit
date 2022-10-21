@@ -1,0 +1,516 @@
+Silicon Labs Wi-SUN border router v1.1.0
+Connected to RCP "0.5.0" (0.5.0), API 0.5.0
+Successfully registered to system DBus
+[90m[DBG ][core]: Allocate Root Tasklet[0m
+[90m[DBG ][6lo ]: P.Init[0m
+[90m[DBG ][core]: NS Root task Init[0m
+[90m[DBG ][sck ]: Socket Tasklet Generated[0m
+[39m[INFO][wsbs]: WS tasklet init[0m
+[39m[INFO][wspt]: Key timers revocation lifetime: 86400, new activation time: 3600, max mismatch 3840, time to update: 82800[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                        ::/0   if:1 src:'User' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      next-hop fe80::9756:6b59:d1c2:88cf (met 0)[0m
+[90m[DBG ][cstr]: config set: phy, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 05 [0m
+[90m[DBG ][cstr]: config set: gen, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x1 v: 57:69:2d:53:55:4e:20:4e:65:74:77:6f:72:6b [0m
+[90m[DBG ][cstr]: config set: phy, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x1 v: 01:1a [0m
+[90m[DBG ][cstr]: config set: timing, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 0f [0m
+[90m[DBG ][cstr]: i: 0x2 v: 3c:00 [0m
+[90m[DBG ][cstr]: config set: rpl, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 0f:02:00 [0m
+[90m[DBG ][cstr]: i: 0x8 v: 20:1c [0m
+[90m[DBG ][cstr]: i: 0xc v: 20:1c [0m
+[90m[DBG ][cstr]: config set: sec_prot, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x10 v: a4:01:02 [0m
+[90m[DBG ][cstr]: config set: mpl, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x2 v: 0a [0m
+[90m[DBG ][cstr]: i: 0x6 v: 78:00 [0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:               fd12:3456::/64  if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 64)[0m
+[90m[DBG ][pIP6]: IPV6 interface Base Ready[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    fe80::/64  if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    ff00::/8   if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 192)[0m
+[90m[DBG ][wsbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 19[0m
+[90m[DBG ][BBRw]: Read BSI 61552 from NVM[0m
+[90m[DBG ][BBRw]: Read PAN ID 65535 from NVM[0m
+[39m[INFO][wsbs]: MAC address: 50:32:5f:ff:fe:42:8b:7b[0m
+[39m[INFO][addr]: Address added to IF 2: fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][addr]: LL64 Register OK![0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    fe80::/64  if:2 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    ff00::/8   if:2 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 192)[0m
+[90m[DBG ][sck ]: Socket id 0 allocated[0m
+[39m[INFO][mntr]: Monitor rate limit incoming packets at:1024[0m
+[90m[DBG ][wsbs]: tasklet init[0m
+[39m[INFO][wsbs]: Discovery start[0m
+[39m[INFO][wsbs]: Wi-SUN packet congestion minTh 85, maxTh 170, drop probability 10 weight 32, Packet/Seconds 2[0m
+[39m[INFO][wsbs]: Border router start network[0m
+[90m[DBG ][wsbs]: ip stack reset[0m
+[39m[INFO][wsnv]: NVM FRAME COUNTER read; stored time: 1577836800[0m
+[90m[DBG ][wst ]: Stored time check and set: 1577836800[0m
+[39m[INFO][wspc]: Read frame counter: index 0 value 203197529[0m
+[39m[INFO][wsnv]: NVM NW_INFO current time: 1577836800 stored time: 1577836800[0m
+[39m[INFO][wsnv]: GTK index: 0, status: 2, install order 0, expiry time: 1580428800, lifetime: 2592000[0m
+[39m[INFO][wsnv]: NVM NW_INFO read PAN ID 720 name: Wi-SUN Network[0m
+[39m[INFO][wsnv]: NVM KEY STORAGE INDEX read[0m
+[39m[INFO][wsks]: KeyS init store bitf: 1[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
+[39m[INFO][wsks]: KeyS new allocated, array: 0x1acb1f8 entries: 100[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
+[39m[INFO][wsks]: KeyS init read array: 0x1acb1f8 file: key_storage_AA[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE read[0m
+[90m[DBG ][BBRw]: Border router version number update[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[90m[DBG ][BBRw]: BBR info NVM update[0m
+[90m[DBG ][w[93mwarning: wsbr_mac_mode_switch_resolver_set: Not implemented[0m
+[94mwsbr_tasklet():231: get event for ws interface: ARM_NWK_BOOTSTRAP_READY[0m
+[94mwsbr_tasklet():229: get event for tun interface: ARM_NWK_BOOTSTRAP_READY[0m
+[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:8b7b to neighbor table[0m
+[94mwsbr_tasklet():231: get event for ws interface: ARM_NWK_BOOTSTRAP_READY[0m
+sbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 19[0m
+[90m[DBG ][wsbs]: FHSS activate[0m
+[90m[DBG ][wsbs]: MAC init[0m
+[90m[DBG ][sck ]: Socket id 1 allocated[0m
+[90m[DBG ][sck ]: Socket id 2 allocated[0m
+[90m[DBG ][sck ]: Socket id 3 allocated[0m
+[39m[INFO][wspc]: GTK hash set 53:06:5a:3e:69:ac:5a:8d 00:00:00:00:00:00:00:00 00:00:00:00:00:00:00:00 00:00:00:00:00:00:00:00[0m
+[39m[INFO][wspc]: NW key set: 0, hash: 53:06:5a:3e:69:ac:5a:8d[0m
+[90m[DBG ][wspc]: Frame counter set: 0, stored 203197529 current: 0[0m
+[90m[DBG ][wspc]: Stored frame counters, active key set: index 0 value 203197529[0m
+[90m[DBG ][wspc]: Write frame counters: system time 0[0m
+[39m[INFO][wsnv]: NVM FRAME COUNTER write; stored time: 1577836800[0m
+[39m[INFO][wspc]: NW send key index set: 1[0m
+[39m[INFO][wsbs]: operation start[0m
+[90m[DBG ][wsbs]: ip stack init[0m
+[90m[DBG ][wsbs]: ip stack reset[0m
+[90m[DBG ][wsbs]: RPL Activate[0m
+[39m[INFO][wsbs]: Routing ready[0m
+[39m[INFO][addr]: Tentative Address added to IF 1: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][addr]: LL64 Register OK![0m
+[39m[INFO][wsbs]: WS SM:Bootstrap Done[0m
+[39m[INFO][addr]: DAD passed on IF 1: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: Interface ID: 1, ipv6: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: DAD OK[0m
+[39m[INFO][addr]: Tentative Address added to IF 1: fd12:3456::1615:16ff:fe17:1819[0m
+[39m[INFO][addr]: DAD passed on IF 1: fd12:3456::1615:16ff:fe17:1819[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::1615:16ff:fe17:1819/128 if:1 src:'Loopback' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][pIP6]: Interface ID: 1, ipv6: fd12:3456::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: DAD OK[0m
+[39m[INFO][BBRw]: BBR Static DODAGID fd12:3456::1615:16ff:fe17:1819[0m
+[39m[INFO][BBRw]: RPL root start[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 60[0m
+[39m[INFO][BBRw]: start using backup prefix fd12:3456::/64[0m
+[39m[INFO][BBRw]: RPL global prefix activate fd12:3456::/64[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:               fd12:3456::/64  if:1 src:'Thread BBR' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][BBRw]: DHCP server activate fd12:3456::/64[0m
+[90m[DBG ][sck ]: Socket id 4 allocated[0m
+[39m[INFO][dhcp]: DHCPv6 address mode SLAAC, address list Stored[0m
+[39m[INFO][dhcp]: DHCPv6 Valid lifetime 7200[0m
+[39m[INFO][dhcp]: DHCPv6 maximum clients 65533[0m
+[90m[DBG ][DHP ]: GEN new Dhcpv6 client 1[0m
+[90m[DBG ][dhcp]: Send DHCPv6 request[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][BBRw]: Border router Backhaul link ready[0m
+[90m[DBG ][prox]: Proxy bridge enabled for interface 1 to 2[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:8b:7b clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][dhcp]: dhcp recv response message[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:8b7b/128 if:2 src:'Loopback' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[39m[INFO][addr]: Address added to IF 2: fd12:3456::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][wsbs]: DHCPv6 fd12:3456::5232:5fff:fe42:8b7b status 1 with link fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][RPLd]: New Target fd12:3456::5232:5fff:fe42:8b7b[0m
+[39m[INFO][wsbs]: WS SM:Bootstrap Done[0m
+[90m[DBG ][MACh]: Register Device 0, mac16 ffff mac64: b4:e3:f9:ff:fe:a6:02:e7, 0[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:5d:f9 [94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:5df9 to neighbor table[0m
+[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:5df9 to neighbor table[0m
+[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:61b0 to neighbor table[0m
+clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fd12:3456::b6e3:f9ff:fea6:2e7[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-49[0m
+[90m[DBG ][MACh]: Unregister Device 0, mac64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-50[0m
+[39m[INFO][rplc]: DIO from fe80::b6e3:f9ff:fea6:2e7, rank 188[0m
+[39m[INFO][wsbs]: received ADVERT SOL Src:b4:e3:f9:ff:fe:a6:05:3e rssi:-81[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-50[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-49[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-51[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 120[0m
+[90m[DBG ][MACh]: Register Device 1, mac16 ffff mac64: b4:e3:f9:ff:fe:a6:02:e7, 0[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:5d:f9 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fd12:3456::b6e3:f9ff:fea6:2e7[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-50[0m
+[90m[DBG ][MACh]: Register Device 2, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:9d, 0[0m
+[39m[INFO][wscm]: Added new neighbor 50:32:5f:ff:fe:42:61:9d : index:2[0m
+[39m[INFO][wscm]: Child registration allowed 0/230, max:255[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:619d/128 if:2 src:'ARO' id:0 lifetime:2218[0m
+[90m[DBG ][rout]:      next-hop fd12:3456::5232:5fff:fe42:619d (met 32)[0m
+[90m[DBG ][icmp]: Omit NA ARO success[0m
+[90m[DBG ][MACh]: Register Device 3, mac16 ffff mac64: 50:32:5f:ff:fe:42:60:39, 0[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[90m[DBG ][wllc]: Remove Temp Entry by TX confirm[0m
+[90m[DBG ][MACh]: Unregister Device 3, mac64: 50:32:5f:ff:fe:42:60:39[0m
+[90m[DBG ][MACh]: Unregister Device 1, mac64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[90m[DBG ][MACh]: Register Device 4, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:b0, 0[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[90m[DBG ][wllc]: Remove Temp Entry by TX confirm[0m
+[90m[DBG ][MACh]: Unregister Device 4, mac64: 50:32:5f:ff:fe:42:61:b0[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:619d[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:619d/128 if:2 src:'RPL DAO SR' id:0 lifetime:7200[0m
+[90m[DBG ][rout]:      next-hop :: (met 128)[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:619d[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-51[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-50[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-79[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-50[0m
+[90m[DBG ][MACh]: Register Device 5, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:b0, 0[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][wsbs]: Set short response neighbor 50:32:5f:ff:fe:42:61:b0 : index:5[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:61:b0 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:61b0[0m
+[90m[DBG ][wllc]: Remove Temp Entry by TX confirm[0m
+[90m[DBG ][MACh]: Unregister Dev[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:6039 to neighbor table[0m
+ice 5, mac64: 50:32:5f:ff:fe:42:61:b0[0m
+[90m[DBG ][MACh]: Register Device 6, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:b0, 0[0m
+[39m[INFO][wscm]: Added new neighbor 50:32:5f:ff:fe:42:61:b0 : index:6[0m
+[39m[INFO][wscm]: Child registration allowed 1/230, max:255[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:61b0/128 if:2 src:'ARO' id:0 lifetime:2218[0m
+[90m[DBG ][rout]:      next-hop fd12:3456::5232:5fff:fe42:61b0 (met 32)[0m
+[90m[DBG ][icmp]: Omit NA ARO success[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-77[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-77[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:61b0[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:61b0/128 if:2 src:'RPL DAO SR' id:0 lifetime:7200[0m
+[90m[DBG ][rout]:      next-hop :: (met 128)[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:61b0[0m
+[90m[DBG ][MACh]: Register Device 7, mac16 ffff mac64: 50:32:5f:ff:fe:42:60:39, 0[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][wsbs]: Set short response neighbor 50:32:5f:ff:fe:42:60:39 : index:7[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:60:39 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:6039[0m
+[90m[DBG ][wllc]: Remove Temp Entry by TX confirm[0m
+[90m[DBG ][MACh]: Unregister Device 7, mac64: 50:32:5f:ff:fe:42:60:39[0m
+[90m[DBG ][MACh]: Register Device 8, mac16 ffff mac64: 50:32:5f:ff:fe:42:60:39, 0[0m
+[39m[INFO][wscm]: Added new neighbor 50:32:5f:ff:fe:42:60:39 : index:8[0m
+[39m[INFO][wscm]: Child registration allowed 2/230, max:255[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:6039/128 if:2 src:'ARO' id:0 lifetime:2218[0m
+[90m[DBG ][rout]:      next-hop fd12:3456::5232:5fff:fe42:6039 (met 32)[0m
+[90m[DBG ][icmp]: Omit NA ARO success[0m
+[90m[DBG ][MACh]: Register Device 9, mac16 ffff mac64: b4:e3:f9:ff:fe:a6:02:e7, 0[0m
+[39m[INFO][wsks]: KeyS get array: 0x1acb1f8 i: 5 eui64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][wsks]: KeyS read 0 0 PMK PMK CNT 0 PTK PTKEUI64 GTKHASH 53:06:00:00:00:00:00:00 GTKHASH4WH PMKLTIME 2880 2 PTKLTIME 1440 2[0m
+[39m[INFO][wsbs]: Active supplicant limit, active: 0 max: 23 summed averageQ: 0 adapt averageQ: 0 LLC averageQ: 0 LLC EAPOL averageQ: 0 drop: F[0m
+[90m[DBG ][wspa]: PAE: to active, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][ksep]: Initial-key init[0m
+[39m[INFO][ksep]: Initial EAPOL-Key recv, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[90m[DBG ][ksep]: recv PMKID: 63:fa:d8:36:70:1c:37:ad:76:a2:04:52:f1:c4:b3:99[0m
+[39m[INFO][secl]: PMKID 63:fa:d8:36:70:1c:37:ad:76:a2:04:52:f1:c4:b3:99 EUI-64 50:32:5f:ff:fe:42:8b:7b b4:e3:f9:ff:fe:a6:03:14[0m
+[90m[DBG ][ksep]: recv PTKID: 10:b9:d3:de:c7:d9:91:d1:dc:d1:82:53:a7:9b:61:e9[0m
+[39m[INFO][secl]: PTKID 10:b9:d3:de:c7:d9:91:d1:dc:d1:82:53:a7:9b:61:e9 EUI-64 50:32:5f:ff:fe:42:8b:7b b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][ksep]: PMK live PTK live GTKL 0[0m
+[39m[INFO][wspa]: PAE: start GKH, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][wspa]: PAE: update GTK index: 0, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][agkh]: GKH init[0m
+[39m[INFO][agkh]: GKH start, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][agkh]: GKH: send Message 1, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 432[0m
+[90m[DBG ][secl]: prot timeout, state: 5[0m
+[39m[INFO][ksep]: Initial-key finished, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 180[0m
+[90m[DBG ][MACh]: Unregister Device 9, mac64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:6039[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:5dd8 to neighbor table[0m
+[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:5df9 to neighbor table[0m
+DBG ][rout]:  fd12:3456::5232:5fff:fe42:6039/128 if:2 src:'RPL DAO SR' id:0 lifetime:7200[0m
+[90m[DBG ][rout]:      next-hop :: (met 128)[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:6039[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-79[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-78[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-51[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-77[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-50[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:60:39 rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:60:39 rssi:-77[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-50[0m
+[39m[INFO][agkh]: GKH: retry Message 1, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][wsbs]: received ADVERT SOL Src:50:32:5f:ff:fe:42:5e:26 rssi:-78[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:b0 panid:2d0 rssi:-59[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:60:39 panid:2d0 rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:60:39 rssi:-79[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:60:39 panid:2d0 rssi:-77[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:60:39 panid:2d0 rssi:-76[0m
+[90m[DBG ][etx ]: Drop bad etx init 3[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-52[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 240[0m
+[39m[INFO][wsbs]: received CONFIG SOL Src:50:32:5f:ff:fe:42:5e:26 rssi:-78[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-80[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:60:39 rssi:-79[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-51[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-81[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:5d:d8 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fd12:3456::5232:5fff:fe42:6039[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[90m[DBG ][MACh]: Register Device 10, mac16 ffff mac64: b4:e3:f9:ff:fe:a6:02:e7, 0[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:5d:f9 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fd12:3456::b6e3:f9ff:fea6:2e7[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:b0 rssi:-62[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-52[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-80[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:5dd8[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:5dd8/128 if:2 src:'RPL DAO SR' id:0 lifetime:7200[0m
+[90m[DBG ][rout]:      next-hop :: (met 128)[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:5dd8[0m
+[90m[DBG ][rplc]: Triggering parent selection due to ETX better on neigh index 8, etx 256[0m
+[90m[DBG ][MACh]: Unregister Device 10, mac64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-79[0m
+[39m[INFO][wsbs][94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:5e26 to neighbor table[0m
+[94mwhiteboard_os_modify():13: Add fd12:3456::5232:5fff:fe42:6155 to neighbor table[0m
+: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-79[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-83[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 300[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-52[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-53[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:5e:26 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fd12:3456::5232:5fff:fe42:6039[0m
+[90m[DBG ][etx ]: Drop bad etx init 5[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:b0 panid:2d0 rssi:-59[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][agkh]: GKH: retry Message 1, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-81[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:5e26[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:5e26/128 if:2 src:'RPL DAO SR' id:0 lifetime:7200[0m
+[90m[DBG ][rout]:      next-hop :: (met 128)[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:5e26[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-79[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wllc]: Drop duplicate message[0m
+[90m[DBG ][MACh]: Register Device 11, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:55, 0[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[90m[DBG ][wllc]: Remove Temp Entry by TX confirm[0m
+[90m[DBG ][MACh]: Unregister Device 11, mac64: 50:32:5f:ff:fe:42:61:55[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:b0 panid:2d0 rssi:-60[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-80[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-78[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 360[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-77[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-80[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:5e:26 rssi:-79[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:5e26[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:5e26[0m
+[90m[DBG ][rplc]: Triggering parent selection due to ETX better on neigh index 6, etx 256[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-78[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[90m[DBG ][MACh]: Register Device 12, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:55, 0[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][wsbs]: Set short response neighbor 50:32:5f:ff:fe:42:61:55 : index:12[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:61:55 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:6155[0m
+[90m[DBG ][wllc]: Remove Temp Entry by TX confirm[0m
+[90m[DBG ][MACh]: Unregister Device 12, mac64: 50:32:5f:ff:fe:42:61:55[0m
+[90m[DBG ][MACh]: Register Device 13, mac16 ffff mac64: 50:32:5f:ff:fe:42:61:55, 0[0m
+[39m[INFO][wscm]: Added new neighbor 50:32:5f:ff:fe:42:61:55 : index:13[0m
+[39m[INFO][wscm]: Child registration allowed 3/230, max:255[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:6155/128 if:2 src:'ARO' id:0 lifetime:2218[0m
+[90m[DBG ][rout]:      next-hop fd12:3456::5232:5fff:fe42:6155 (met 32)[0m
+[90m[DBG ][icmp]: Omit NA ARO success[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-78[0m
+[39m[INFO][rplc]: DAO from fd12:3456::5232:5fff:fe42:6155[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:6155/128 if:2 src:'RPL DAO SR' id:0 lifetime:7200[0m
+[90m[DBG ][rout]:      next-hop :: (met 128)[0m
+[39m[INFO][rplc]: Transmit DAO-ACK to: fd12:3456::5232:5fff:fe42:6155[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-79[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-78[0m
+[90m[DBG ][rout]: Destination cache remove: ff02::2[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 420[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:55 rssi:-69[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:55 rssi:-70[0m
+[39m[INFO][agkh]: GKH: retry Message 1, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-67[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-81[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-75[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-68[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:b0 rssi:-59[0m
+[39m[INFO][wsbs]: received ADVERT SOL Src:b4:e3:f9:ff:fe:a6:05:3e rssi:-78[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-71[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-52[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-51[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:b0 rssi:-58[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:60:39 rssi:-79[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 480[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-74[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-79[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-75[0m
+[39m[INFO][wsbs]: received ADVERT Src:b4:e3:f9:ff:fe:a6:02:e7 panid:2d0 rssi:-52[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:9d rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:55 rssi:-72[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-77[0m
+[90m[DBG ][MACh]: Register Device 14, mac16 ffff mac64: b4:e3:f9:ff:fe:a6:02:e7, 0[0m
+[39m[INFO][ksep]: Initial-key init[0m
+[39m[INFO][ksep]: Initial EAPOL-Key recv, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[90m[DBG ][ksep]: recv PMKID: 63:fa:d8:36:70:1c:37:ad:76:a2:04:52:f1:c4:b3:99[0m
+[39m[INFO][secl]: PMKID 63:fa:d8:36:70:1c:37:ad:76:a2:04:52:f1:c4:b3:99 EUI-64 50:32:5f:ff:fe:42:8b:7b b4:e3:f9:ff:fe:a6:03:14[0m
+[90m[DBG ][ksep]: recv PTKID: 10:b9:d3:de:c7:d9:91:d1:dc:d1:82:53:a7:9b:61:e9[0m
+[39m[INFO][secl]: PTKID 10:b9:d3:de:c7:d9:91:d1:dc:d1:82:53:a7:9b:61:e9 EUI-64 50:32:5f:ff:fe:42:8b:7b b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][ksep]: PMK live PTK live GTKL 0[0m
+[39m[INFO][wspa]: PAE: start GKH, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][wspa]: PAE: update GTK index: 0, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][agkh]: GKH init[0m
+[39m[INFO][agkh]: GKH start, eui-64: b4:e3:f9:ff:fe:a6:03:14[0m
+[39m[INFO][agkh]: GKH: send Message 1, eui-64: d:f9 rssi:-82[0m
+[39m[INFO][wsks]: KeyS get array: 0x8242b0 i: 0 eui64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wsks]: KeyS read 0 0 PMK PMK CNT 0 PTK PTKEUI64 GTKHASH 53:06:00:00:00:00:00:00 GTKHASH4WH PMKLTIME 2880 2 PTKLTIME 1440 2[0m
+[39m[INFO][wsbs]: Active supplicant limit, active: 0 max: 23 summed averageQ: 0 adapt averageQ: 0 LLC averageQ: 0 LLC EAPOL averageQ: 0 drop: F[0m
+[90m[DBG ][wspa]: PAE: to active, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][ksep]: Initial-key init[0m
+[39m[INFO][ksep]: Initial EAPOL-Key recv, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[90m[DBG ][ksep]: recv PMKID: d1:20:9f:2f:16:bd:26:bf:4d:18:23:64:7e:80:3c:f3[0m
+[39m[INFO][secl]: PMKID d1:20:9f:2f:16:bd:26:bf:4d:18:23:64:7e:80:3c:f3 EUI-64 50:32:5f:ff:fe:42:8b:7b b4:e3:f9:ff:fe:a6:02:e7[0m
+[90m[DBG ][ksep]: recv PTKID: 0c:a8:8a:4b:49:1e:07:10:d1:72:51:19:ba:79:ea:0b[0m
+[39m[INFO][secl]: PTKID 0c:a8:8a:4b:49:1e:07:10:d1:72:51:19:ba:79:ea:0b EUI-64 50:32:5f:ff:fe:42:8b:7b b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][ksep]: PMK live PTK live GTKL 0[0m
+[39m[INFO][wspa]: PAE: start GKH, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wspa]: PAE: update GTK index: 0, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][agkh]: GKH init[0m
+[39m[INFO][agkh]: GKH start, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][agkh]: GKH: send Message 1, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 393[0m
+[90m[DBG ][secl]: prot timeout, state: 5[0m
+[39m[INFO][ksep]: Initial-key finished, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][agkh]: GKH: recv Message 2, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][agkh]: GKH finish, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wspa]: PAE: authenticated, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][rplc]: DIO from fe80::5232:5fff:fe42:6039, rank 188[0m
+[39m[INFO][rplc]: DIO from fe80::5232:5fff:fe42:619d, rank 188[0m
+[90m[DBG ][secl]: prot timeout, state: 5[0m
+[39m[INFO][agkh]: GKH finished, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:5d:f9 rssi:-81[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:9d panid:2d0 rssi:-79[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 300[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-81[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:55 rssi:-70[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:60:39 panid:2d0 rssi:-78[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:60:39 panid:2d0 rssi:-78[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:b4:e3:f9:ff:fe:a6:03:14 clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fd12:3456::5232:5fff:fe42:6155[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-72[0m
+[90m[DBG ][wspl]: PAE: to inactive, eui-64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wsks]: KeyS get array: 0x8242b0 i: 0 eui64: b4:e3:f9:ff:fe:a6:02:e7[0m
+[39m[INFO][wsks]: KeyS write 0 0 PMK CNT 1 53:06:00:00:00:00:00:00 GTKHASH4WH 2880 2 1440 2[0m
+[39m[INFO][wspa]: Supplicant deleted[0m
+[39m[INFO][wsbs]: Active supplicant limit, active: 0 max: 23 summed averageQ: 0 adapt averageQ: 0 LLC averageQ: 0 LLC EAPOL averageQ: 0 drop: F[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:5e:26 panid:2d0 rssi:-79[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:5e:26 rssi:-78[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:b0 rssi:-60[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:b0 rssi:-60[0m
+[39m[INFO][rplc]: DIO from fe80::5232:5fff:fe42:6039, rank 188[0m

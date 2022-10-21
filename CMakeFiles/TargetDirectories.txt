@@ -1,0 +1,10 @@
+/home/pi/wisun-br-linux/CMakeFiles/install/strip.dir
+/home/pi/wisun-br-linux/CMakeFiles/install.dir
+/home/pi/wisun-br-linux/CMakeFiles/list_install_components.dir
+/home/pi/wisun-br-linux/CMakeFiles/edit_cache.dir
+/home/pi/wisun-br-linux/CMakeFiles/wsnode.dir
+/home/pi/wisun-br-linux/CMakeFiles/install/local.dir
+/home/pi/wisun-br-linux/CMakeFiles/rebuild_cache.dir
+/home/pi/wisun-br-linux/CMakeFiles/wsbrd.dir
+/home/pi/wisun-br-linux/CMakeFiles/wshwsim.dir
+/home/pi/wisun-br-linux/CMakeFiles/check_git.dir

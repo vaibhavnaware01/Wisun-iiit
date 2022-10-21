@@ -1,0 +1,141 @@
+[90m[DBG ][core]: Allocate Root Tasklet[0m
+[90m[DBG ][6lo ]: P.Init[0m
+[90m[DBG ][core]: NS Root task Init[0m
+[90m[DBG ][sck ]: Socket Tasklet Generated[0m
+[39m[INFO][wsbs]: WS tasklet init[0m
+[39m[INFO][wspt]: Key timers revocation lifetime: 86400, new activation time: 3600, max mismatch 3840, time to update: 82800[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                        ::/0   if:1 src:'User' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      next-hop fe80::ffb3:d576:191f:3f55 (met 0)[0m
+[90m[DBG ][cstr]: config set: phy, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 05 [0m
+[90m[DBG ][cstr]: config set: gen, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x1 v: 57:69:2d:53:55:4e:20:4e:65:74:77:6f:72:6b [0m
+[90m[DBG ][cstr]: config set: timing, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 0f [0m
+[90m[DBG ][cstr]: i: 0x2 v: 3c:00 [0m
+[90m[DBG ][cstr]: config set: rpl, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 0f:02:00 [0m
+[90m[DBG ][cstr]: i: 0x8 v: 20:1c [0m
+[90m[DBG ][cstr]: i: 0xc v: 20:1c [0m
+[90m[DBG ][cstr]: config set: sec_prot, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x10 v: a4:01:02 [0m
+[90m[DBG ][cstr]: config set: mpl, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x2 v: 0a [0m
+[90m[DBG ][cstr]: i: 0x6 v: 78:00 [0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:               fd12:3456::/64  if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 64)[0m
+[90m[DBG ][pIP6]: IPV6 interface Base Ready[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    fe80::/64  if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    ff00::/8   if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 192)[0m
+[90m[DBG ][wsbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 10[0m
+[90m[DBG ][BBRw]: Read BSI 61490 from NVM[0m
+[90m[DBG ][BBRw]: Read PAN ID 65535 from NVM[0m
+[39m[INFO][wsbs]: MAC address: 50:32:5f:ff:fe:42:8b:7b[0m
+[39m[INFO][addr]: Address added to IF 2: fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][addr]: LL64 Register OK![0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    fe80::/64  if:2 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    ff00::/8   if:2 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 192)[0m
+[90m[DBG ][sck ]: Socket id 0 allocated[0m
+[39m[INFO][mntr]: Monitor rate limit incoming packets at:1024[0m
+[90m[DBG ][wsbs]: tasklet init[0m
+[39m[INFO][wsbs]: Discovery start[0m
+[39m[INFO][wsbs]: Wi-SUN packet congestion minTh 210, maxTh 420, drop probability 10 weight 32, Packet/Seconds 7[0m
+[39m[INFO][wsbs]: Border router start network[0m
+[90m[DBG ][wsbs]: ip stack reset[0m
+[39m[INFO][wsnv]: NVM FRAME COUNTER read; stored time: 1577836800[0m
+[90m[DBG ][wst ]: Stored time check and set: 1577836800[0m
+[39m[INFO][wspc]: Read frame counter: index 0 value 144046916[0m
+[39m[INFO][wsnv]: NVM NW_INFO current time: 1577836800 stored time: 1577836800[0m
+[39m[INFO][wsnv]: GTK index: 0, status: 2, install order 0, expiry time: 1580428800, lifetime: 2592000[0m
+[39m[INFO][wsnv]: NVM NW_INFO read PAN ID 720 name: Wi-SUN Network[0m
+[39m[INFO][wsnv]: NVM KEY STORAGE INDEX read[0m
+[39m[INFO][wsks]: KeyS init store bitf: 1[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
+[39m[INFO][wsks]: KeyS new allocated, array: 0x8628b0 entries: 100[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
+[39m[INFO][wsks]: KeyS init read array: 0x8628b0 file: key_storage_AA[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE read[0m
+[90m[DBG ][BBRw]: Border router version number update[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[90m[DBG ][BBRw]: BBR info NVM update[0m
+[90m[DBG ][wsbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 10[0m
+[90m[DBG ][wsbs]: FHSS activate[0m
+[90m[DBG ][wsbs]: MAC init[0m
+[90m[DBG ][sck ]: Socket id 1 allocated[0m
+[90m[DBG ][sck ]: Socket id 2 allocated[0m
+[90m[DBG ][sck ]: Socket id 3 allocated[0m
+[39m[INFO][wspc]: GTK hash set 53:06:5a:3e:69:ac:5a:8d 00:00:00:00:00:00:00:00 00:00:00:00:00:00:00:00 00:00:00:00:00:00:00:00[0m
+[39m[INFO][wspc]: NW key set: 0, hash: 53:06:5a:3e:69:ac:5a:8d[0m
+[90m[DBG ][wspc]: Frame counter set: 0, stored 144046916 current: 0[0m
+[90m[DBG ][wspc]: Stored frame counters, active key set: index 0 value 144046916[0m
+[90m[DBG ][wspc]: Write frame counters: system time 0[0m
+[39m[INFO][wsnv]: NVM FRAME COUNTER write; stored time: 1577836800[0m
+[39m[INFO][wspc]: NW send key index set: 1[0m
+[39m[INFO][wsbs]: operation start[0m
+[90m[DBG ][wsbs]: ip stack init[0m
+[90m[DBG ][wsbs]: ip stack reset[0m
+[90m[DBG ][wsbs]: RPL Activate[0m
+[39m[INFO][wsbs]: Routing ready[0m
+[39m[INFO][addr]: Tentative Address added to IF 1: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][addr]: LL64 Register OK![0m
+[39m[INFO][wsbs]: WS SM:Bootstrap Done[0m
+[39m[INFO][addr]: DAD passed on IF 1: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: Interface ID: 1, ipv6: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: DAD OK[0m
+[39m[INFO][addr]: Tentative Address added to IF 1: fd12:3456::1615:16ff:fe17:1819[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-24[0m
+[39m[INFO][addr]: DAD passed on IF 1: fd12:3456::1615:16ff:fe17:1819[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::1615:16ff:fe17:1819/128 if:1 src:'Loopback' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][pIP6]: Interface ID: 1, ipv6: fd12:3456::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: DAD OK[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:55 rssi:-27[0m
+[39m[INFO][BBRw]: BBR Static DODAGID fd12:3456::1615:16ff:fe17:1819[0m
+[39m[INFO][BBRw]: RPL root start[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 60[0m
+[39m[INFO][BBRw]: start using backup prefix fd12:3456::/64[0m
+[39m[INFO][BBRw]: RPL global prefix activate fd12:3456::/64[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:               fd12:3456::/64  if:1 src:'Thread BBR' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][BBRw]: DHCP server activate fd12:3456::/64[0m
+[90m[DBG ][sck ]: Socket id 4 allocated[0m
+[39m[INFO][dhcp]: DHCPv6 address mode SLAAC, address list Stored[0m
+[39m[INFO][dhcp]: DHCPv6 Valid lifetime 7200[0m
+[39m[INFO][dhcp]: DHCPv6 maximum clients 65533[0m
+[90m[DBG ][DHP ]: GEN new Dhcpv6 client 1[0m
+[90m[DBG ][dhcp]: Send DHCPv6 request[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][BBRw]: Border router Backhaul link ready[0m
+[90m[DBG ][prox]: Proxy bridge enabled for interface 1 to 2[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:8b:7b clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][dhcp]: dhcp recv response message[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:8b7b/128 if:2 src:'Loopback' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[39m[INFO][addr]: Address added to IF 2: fd12:3456::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][wsbs]: DHCPv6 fd12:3456::5232:5fff:fe42:8b7b status 1 with link fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][RPLd]: New Target fd12:3456::5232:5fff:fe42:8b7b[0m
+[39m[INFO][wsbs]: WS SM:Bootstrap Done[0m
+[39m[INFO][wsbs]: received ADVERT Src:50:32:5f:ff:fe:42:61:55 panid:2d0 rssi:-28[0m
+[39m[INFO][wsbs]: received CONFIG Src:50:32:5f:ff:fe:42:61:55 rssi:-29[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received CONFIG Src:5

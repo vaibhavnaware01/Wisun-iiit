@@ -1,0 +1,197 @@
+[90m[DBG ][core]: Allocate Root Tasklet[0m
+[90m[DBG ][6lo ]: P.Init[0m
+[90m[DBG ][core]: NS Root task Init[0m
+[90m[DBG ][sck ]: Socket Tasklet Generated[0m
+[39m[INFO][wsbs]: WS tasklet init[0m
+[39m[INFO][wspt]: Key timers revocation lifetime: 86400, new activation time: 3600, max mismatch 3840, time to update: 82800[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                        ::/0   if:1 src:'User' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      next-hop fe80::31f7:6394:ee18:c48f (met 0)[0m
+[90m[DBG ][cstr]: config set: phy, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 05 [0m
+[90m[DBG ][cstr]: config set: gen, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x1 v: 57:69:2d:53:55:4e:20:4e:65:74:77:6f:72:6b [0m
+[90m[DBG ][cstr]: config set: phy, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x1 v: 01:1a [0m
+[90m[DBG ][cstr]: config set: timing, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 0f [0m
+[90m[DBG ][cstr]: i: 0x2 v: 3c:00 [0m
+[90m[DBG ][cstr]: config set: rpl, changed fields:[0m
+[90m[DBG ][cstr]: i: (nil) v: 0f:02:00 [0m
+[90m[DBG ][cstr]: i: 0x8 v: 20:1c [0m
+[90m[DBG ][cstr]: i: 0xc v: 20:1c [0m
+[90m[DBG ][cstr]: config set: sec_prot, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x10 v: a4:01:02 [0m
+[90m[DBG ][cstr]: config set: mpl, changed fields:[0m
+[90m[DBG ][cstr]: i: 0x2 v: 0a [0m
+[90m[DBG ][cstr]: i: 0x6 v: 78:00 [0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:               fd12:3456::/64  if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 64)[0m
+[90m[DBG ][pIP6]: IPV6 interface Base Ready[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    fe80::/64  if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    ff00::/8   if:1 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 192)[0m
+[90m[DBG ][wsbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 19[0m
+[90m[DBG ][BBRw]: Read BSI 61525 from NVM[0m
+[90m[DBG ][BBRw]: Read PAN ID 65535 from NVM[0m
+[39m[INFO][wsbs]: MAC address: 50:32:5f:ff:fe:42:8b:7b[0m
+[39m[INFO][addr]: Address added to IF 2: fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][addr]: LL64 Register OK![0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    fe80::/64  if:2 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:                    ff00::/8   if:2 src:'Static' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 192)[0m
+[90m[DBG ][sck ]: Socket id 0 allocated[0m
+[39m[INFO][mntr]: Monitor rate limit incoming packets at:1024[0m
+[90m[DBG ][wsbs]: tasklet init[0m
+[39m[INFO][wsbs]: Discovery start[0m
+[39m[INFO][wsbs]: Wi-SUN packet congestion minTh 85, maxTh 170, drop probability 10 weight 32, Packet/Seconds 2[0m
+[39m[INFO][wsbs]: Border router start network[0m
+[90m[DBG ][wsbs]: ip stack reset[0m
+[39m[INFO][wsnv]: NVM FRAME COUNTER read; stored time: 1577836800[0m
+[90m[DBG ][wst ]: Stored time check and set: 1577836800[0m
+[39m[INFO][wspc]: Read frame counter: index 0 value 175046916[0m
+[39m[INFO][wsnv]: NVM NW_INFO current time: 1577836800 stored time: 1577836800[0m
+[39m[INFO][wsnv]: GTK index: 0, status: 2, install order 0, expiry time: 1580428800, lifetime: 2592000[0m
+[39m[INFO][wsnv]: NVM NW_INFO read PAN ID 720 name: Wi-SUN Network[0m
+[39m[INFO][wsnv]: NVM KEY STORAGE INDEX read[0m
+[39m[INFO][wsks]: KeyS init store bitf: 1[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
+[39m[INFO][wsks]: KeyS new allocated, array: 0x4d1c98 entries: 100[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
+[39m[INFO][wsks]: KeyS init read array: 0x4d1c98 file: key_storage_AA[0m
+[90m[DBG ][wsnv]: NVM KEY STORAGE read[0m
+[90m[DBG ][BBRw]: Border router version number update[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[90m[DBG ][BBRw]: BBR info NVM update[0m
+[90m[DBG ][wsbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 19[0m
+[90m[DBG ][wsbs]: FHSS activate[0m
+[90m[DBG ][wsbs]: MAC init[0m
+[90m[DBG ][sck ]: Socket id 1 allocated[0m
+[90m[DBG ][sck ]: Socket id 2 allocated[0m
+[90m[DBG ][sck ]: Socket id 3 allocated[0m
+[39m[INFO][wspc]: GTK hash set 53:06:5a:3e:69:ac:5a:8d 00:00:00:00:00:00:00:00 00:00:00:00:00:00:00:00 00:00:00:00:00:00:00:00[0m
+[39m[INFO][wspc]: NW key set: 0, hash: 53:06:5a:3e:69:ac:5a:8d[0m
+[90m[DBG ][wspc]: Frame counter set: 0, stored 175046916 current: 0[0m
+[90m[DBG ][wspc]: Stored frame counters, active key set: index 0 value 175046916[0m
+[90m[DBG ][wspc]: Write frame counters: system time 0[0m
+[39m[INFO][wsnv]: NVM FRAME COUNTER write; stored time: 1577836800[0m
+[39m[INFO][wspc]: NW send key index set: 1[0m
+[39m[INFO][wsbs]: operation start[0m
+[90m[DBG ][wsbs]: ip stack init[0m
+[90m[DBG ][wsbs]: ip stack reset[0m
+[90m[DBG ][wsbs]: RPL Activate[0m
+[39m[INFO][wsbs]: Routing ready[0m
+[39m[INFO][addr]: Tentative Address added to IF 1: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][addr]: LL64 Register OK![0m
+[39m[INFO][wsbs]: WS SM:Bootstrap Done[0m
+[39m[INFO][addr]: DAD passed on IF 1: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: Interface ID: 1, ipv6: fe80::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: DAD OK[0m
+[39m[INFO][addr]: Tentative Address added to IF 1: fd12:3456::1615:16ff:fe17:1819[0m
+[39m[INFO][addr]: DAD passed on IF 1: fd12:3456::1615:16ff:fe17:1819[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::1615:16ff:fe17:1819/128 if:1 src:'Loopback' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][pIP6]: Interface ID: 1, ipv6: fd12:3456::1615:16ff:fe17:1819[0m
+[90m[DBG ][pIP6]: DAD OK[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-49[0m
+[39m[INFO][wsbs]: received CONFIG Src:b4:e3:f9:ff:fe:a6:02:e7 rssi:-48[0m
+[39m[INFO][BBRw]: BBR Static DODAGID fd12:3456::1615:16ff:fe17:1819[0m
+[39m[INFO][BBRw]: RPL root start[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[90m[DBG ][BBRw]: BBR global ::/64, local fd12:3456::/64[0m
+[90m[DBG ][BBRw]: Check for backup prefix 40 / 60[0m
+[39m[INFO][BBRw]: start using backup prefix fd12:3456::/64[0m
+[39m[INFO][BBRw]: RPL global prefix activate fd12:3456::/64[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:               fd12:3456::/64  if:1 src:'Thread BBR' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[90m[DBG ][BBRw]: DHCP server activate fd12:3456::/64[0m
+[90m[DBG ][sck ]: Socket id 4 allocated[0m
+[39m[INFO][dhcp]: DHCPv6 address mode SLAAC, address list Stored[0m
+[39m[INFO][dhcp]: DHCPv6 Valid lifetime 7200[0m
+[39m[INFO][dhcp]: DHCPv6 maximum clients 65533[0m
+[90m[DBG ][DHP ]: GEN new Dhcpv6 client 1[0m
+[90m[DBG ][dhcp]: Send DHCPv6 request[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][BBRw]: Border router Backhaul link ready[0m
+[90m[DBG ][prox]: Proxy bridge enabled for interface 1 to 2[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][dhcp]: dhcp Server recv request[0m
+[90m[DBG ][dhcp]: GUA Handler[0m
+[90m[DBG ][dhcp]: Response dhcp sol 00:06:50:32:5f:ff:fe:42:8b:7b clientDUID[0m
+[39m[INFO][icmp]: Build NA[0m
+[90m[DBG ][dhcp]: Send DHCPv6 response[0m
+[39m[INFO][dhcp]: dhcp service socket_sendto fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][dhcp]: dhcp recv response message[0m
+[90m[DBG ][rout]: Added route:[0m
+[90m[DBG ][rout]:  fd12:3456::5232:5fff:fe42:8b7b/128 if:2 src:'Loopback' id:0 lifetime:infinite[0m
+[90m[DBG ][rout]:      On-link (met 128)[0m
+[39m[INFO][addr]: Address added to IF 2: fd12:3456::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][wsbs]: DHCPv6 fd12:3456::5232:5fff:fe42:8b7b status 1 with link fe80::5232:5fff:fe42:8b7b[0m
+[90m[DBG ][RPLd]: New Target fd12:3456::5232:5fff:fe42:8b7b[0m
+[39m[INFO][wsbs]: WS SM:Bootstrap Done[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsbs]: received ADVERT SOL Src:50:32:5f:ff:fe:42:8a:37 rssi:-54[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][wsbs]: received ADVERT SOL Src:50:32:5f:ff:fe:42:8a:37 rssi:-54[0m
+[39m[INFO][wsbs]: Send PAN configuration[0m
+[39m[INFO][wsbs]: received ADVERT SOL Src:50:32:5f:ff:fe:42:8a:37 rssi:-54[0m
+[39m[INFO][rplc]: transmit dio, rank: c4[0m
+[39m[INFO][wsbs]: Send PAN advertisement[0m
+[39m[INFO][wsks]: KeyS get array (not alloc): (nil) i: 0 free: (nil) eui64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][wsbs]: Active supplicant limit, active: 0 max: 23 summed averageQ: 0 adapt averageQ: 0 LLC averageQ: 0 LLC EAPOL averageQ: 0 drop: F[0m
+[39m[INFO][ksep]: Initial-key init[0m
+[39m[INFO][ksep]: Initial EAPOL-Key recv, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][ksep]: recv PMKID: 30:51:6d:4b:7f:38:2e:9e:85:06:01:8c:3d:ea:b0:e5[0m
+[90m[DBG ][ksep]: recv PTKID: 29:69:f5:84:00:ad:20:07:eb:51:d5:b8:a0:c0:c8:cb[0m
+[39m[INFO][ksep]: PMK not live PTK not live GTKL 0[0m
+[39m[INFO][wspa]: PAE: start EAP-TLS, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS init[0m
+[90m[DBG ][tlsp]: TLS: init[0m
+[39m[INFO][eapa]: EAP-TLS start, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: send REQ type IDENTITY id 1 flags ff len 9, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 413[0m
+[90m[DBG ][secl]: prot timeout, state: 5[0m
+[39m[INFO][ksep]: Initial-key finished, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][wsne]: UFSI updated: 50:32:5f:ff:fe:42:8a:37, drift: 6ms in 0 seconds[0m
+[39m[INFO][eapa]: EAP-TLS: recv RESPONSE type IDENTITY id 1 flags 41 len 14, eui-64 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: send REQ type TLS id 2 flags 20 len 10, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 471[0m
+[39m[INFO][eapa]: EAP-TLS: recv RESPONSE type TLS id 2 flags 0 len 86, eui-64 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tlsp]: TLS: start, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: send REQ type TLS id 3 flags c0 len 614, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 515[0m
+[39m[INFO][eapa]: EAP-TLS: recv RESPONSE type TLS id 3 flags 0 len 6, eui-64 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: send REQ type TLS id 4 flags 0 len 200, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 479[0m
+[90m[DBG ][wsne]: UFSI updated: 50:32:5f:ff:fe:42:8a:37, drift: -7ms in 2 seconds[0m
+[39m[INFO][eapa]: EAP-TLS: recv RESPONSE type TLS id 4 flags c0 len 610, eui-64 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: send REQ type TLS id 5 flags 0 len 10, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 305[0m
+[39m[INFO][eapa]: EAP-TLS: recv RESPONSE type TLS id 5 flags 0 len 82, eui-64 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][tlsl]: id-on-hardwareModuleName 1.3.6.1.4.1.39873.2[0m
+[39m[INFO][tlsl]: id-on-hardwareModuleName hwSerialNum 31:32:33:34:35:36[0m
+[90m[DBG ][tlsp]: TLS: finish, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: handshake success[0m
+[39m[INFO][eapa]: EAP-TLS: send REQ type TLS id 6 flags 0 len 53, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[90m[DBG ][tric]: trickle reset timer[0m
+[39m[INFO][secl]: Security prot trickle start, I: 600, t: 480[0m
+[39m[INFO][eapa]: EAP-TLS: recv RESPONSE type TLS id 6 flags 0 len 6, eui-64 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS: send SUCCESS type TLS id 6 flags ff len 8, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][eapa]: EAP-TLS finish, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][wspa]: PAE: start 4WH, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][wspa]: PAE: update GTK index: 0, eui-64: 50:32:5f:ff:fe:42:8a:37[0m
+[39m[INFO][afw

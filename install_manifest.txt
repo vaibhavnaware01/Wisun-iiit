@@ -1,0 +1,12 @@
+/usr/local/bin/wsbrd
+/usr/local/share/dbus-1/system-services/com.silabs.Wisun.BorderRouter.service
+/usr/local/lib/arm-linux-gnueabihf/systemd/system/wisun-borderouter.service
+/etc/dbus-1/system.d/com.silabs.Wisun.BorderRouter.conf
+/usr/local/share/doc/wsbrd/CHANGES.md
+/usr/local/share/doc/wsbrd/README.md
+/usr/local/share/doc/wsbrd/examples/wsbrd.conf
+/usr/local/share/doc/wsbrd/examples/br_cert.pem
+/usr/local/share/doc/wsbrd/examples/br_key.pem
+/usr/local/share/doc/wsbrd/examples/ca_cert.pem
+/usr/local/share/doc/wsbrd/examples/node_cert.pem
+/usr/local/share/doc/wsbrd/examples/node_key.pem

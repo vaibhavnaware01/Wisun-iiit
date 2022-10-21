@@ -6,7 +6,7 @@
 [39m[INFO][wspt]: Key timers revocation lifetime: 86400, new activation time: 3600, max mismatch 3840, time to update: 82800[0m
 [90m[DBG ][rout]: Added route:[0m
 [90m[DBG ][rout]:                        ::/0   if:1 src:'User' id:0 lifetime:infinite[0m
-[90m[DBG ][rout]:      next-hop fe80::8a19:7a38:e0f8:fbd2 (met 0)[0m
+[90m[DBG ][rout]:      next-hop fe80::a7ab:e469:9fe:6fe8 (met 0)[0m
 [90m[DBG ][cstr]: config set: phy, changed fields:[0m
 [90m[DBG ][cstr]: i: (nil) v: 05 [0m
 [90m[DBG ][cstr]: config set: gen, changed fields:[0m
@@ -36,7 +36,7 @@
 [90m[DBG ][rout]:                    ff00::/8   if:1 src:'Static' id:0 lifetime:infinite[0m
 [90m[DBG ][rout]:      On-link (met 192)[0m
 [90m[DBG ][wsbs]: Excluded ctrl 0, exluded channel count 0, total domain channels 19[0m
-[90m[DBG ][BBRw]: Read BSI 61646 from NVM[0m
+[90m[DBG ][BBRw]: Read BSI 61757 from NVM[0m
 [90m[DBG ][BBRw]: Read PAN ID 65535 from NVM[0m
 [39m[INFO][wsbs]: MAC address: 50:32:5f:ff:fe:42:8b:7b[0m
 [39m[INFO][addr]: Address added to IF 2: fe80::5232:5fff:fe42:8b7b[0m
@@ -56,18 +56,18 @@
 [90m[DBG ][wsbs]: ip stack reset[0m
 [39m[INFO][wsnv]: NVM FRAME COUNTER read; stored time: 1577836800[0m
 [90m[DBG ][wst ]: Stored time check and set: 1577836800[0m
-[39m[INFO][wspc]: Read frame counter: index 0 value 293696319[0m
+[39m[INFO][wspc]: Read frame counter: index 0 value 404696319[0m
 [39m[INFO][wsnv]: NVM NW_INFO current time: 1577836800 stored time: 1577836800[0m
 [39m[INFO][wsnv]: GTK index: 0, status: 2, install order 0, expiry time: 1580428800, lifetime: 2592000[0m
 [39m[INFO][wsnv]: NVM NW_INFO read PAN ID 720 name: Wi-SUN Network[0m
 [39m[INFO][wsnv]: NVM KEY STORAGE INDEX read[0m
 [39m[INFO][wsks]: KeyS init store bitf: 1[0m
 [90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
-[39m[INFO][wsks]: KeyS new allocated, array: 0x127c2b0 entries: 100[0m
+[39m[INFO][wsks]: KeyS new allocated, array: 0x1e1c2b0 entries: 100[0m
 [90m[DBG ][wsnv]: NVM KEY STORAGE create[0m
-[39m[INFO][wsks]: KeyS init read array: 0x127c2b0 file: key_storage_AA[0m
+[39m[INFO][wsks]: KeyS init read array: 0x1e1c2b0 file: key_storage_AA[0m
 [90m[DBG ][wsnv]: NVM KEY STORAGE read[0m
 [90m[DBG ][BBRw]: Border router version number update[0m
 [90m[DBG ][tric]: trickle reset timer[0m
 [90m[DBG ][BBRw]: BBR info NVM update[0m
-[90m[DBG ][w
+[90m[DBG ][ws

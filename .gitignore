@@ -1,0 +1,12 @@
+# Folders
+
+tests/
+actions-runner/
+examples/
+
+# Files
+
+*.txt
+*.cache
+*.cm
+

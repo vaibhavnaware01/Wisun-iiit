@@ -7,14 +7,14 @@ sudo ip -6 address add fd12:3456::1/64 dev tun0 &
 echo "[LOG] Waiting for border router to boot up"
 sleep 10
 echo "[LOG] Checking for Border Router IP"
-COUNT=`ip address show tun0 | grep global | wc -l`
-echo "$COUNT"
+COUNT=`ip address show tun0 | grep global | wc -l` #Check how many IPs are connected
 if [[ "$COUNT" -eq 2 ]]; then
 	echo "[LOG] Wisun Network online"
 else
 	echo "[LOG] Wisun Network not found! Exitting!"
 fi
 sleep 2
+# Restart the existing services
 echo "[LOG] Starting https.service systemd process"
 sudo systemctl restart https.service && sudo systemctl status https.service
 sleep 2
